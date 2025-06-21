@@ -1,0 +1,29 @@
+[33mcommit ddbcf8309b2b5f98918d4174d9dd31c0c3a8aeab[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: amuni5323 <amuni11.hamai@gmail.com>
+Date:   Sat Jun 21 00:14:43 2025 +0300
+
+    Initial commit: full frontend and backend without .env files
+
+.gitignore
+README.md
+backend/app.js
+backend/config/db.js
+backend/controllers/authController.js
+backend/controllers/generateController.js
+backend/controllers/ollamaController.js
+backend/models/User.js
+backend/package-lock.json
+backend/package.json
+backend/prisma/dev.db
+backend/prisma/migrations/20250609194130_init/migration.sql
+backend/prisma/migrations/migration_lock.toml
+backend/prisma/schema.prisma
+backend/routes/authRoutes.js
+backend/routes/generateRouter.js
+backend/routes/ollama.js
+backend/routes/userSettings.js
+backend/utils/ollamaClient.js
+frontend
+package-lock.json
+package.json
+prisma/schema.prisma

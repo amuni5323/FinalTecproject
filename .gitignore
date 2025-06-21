@@ -1,0 +1,12 @@
+
+/generated/prisma
+# Ignore all environment files
+.env
+*.env
+*.env.*
+frontend/.env
+backend/.env
+IDEABLOOM/.env
+
+# Node modules
+node_modules/
